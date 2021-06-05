@@ -44,6 +44,7 @@ For Lots:
 - Lot3 p-value is 0.04. Reject H0. Do have sufficient evidence to reject the null hypothesis.
 
 _Figure 3.2 T-tests on Individual Lots_
+
 ![t_test_lot1](https://user-images.githubusercontent.com/78275082/120902065-3968aa80-c60c-11eb-842a-fbee9e2482d5.png)
 ![t_test_lot2](https://user-images.githubusercontent.com/78275082/120902067-3a99d780-c60c-11eb-9637-fcfc3d9e0301.png)
 ![t_test_lot3](https://user-images.githubusercontent.com/78275082/120902069-3c639b00-c60c-11eb-81f8-060482c61b4d.png)
