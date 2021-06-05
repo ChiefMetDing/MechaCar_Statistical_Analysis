@@ -61,3 +61,5 @@ H0: The difference of city fuel efficiency between MechaCar and the competition 
 H1: The difference of city fuel efficiency between MechaCar and the competition is not equal to zero.
 
 When p-value is higher than 0.05, keep H0. There is no difference.
+
+Data requirement: city fuel efficiency of cars from another manufacturer is required. The data must be obtained on similar samples comparing to the MecharCar samples. Samples are obtained from the same region, during the same period of time (day, month, season, year), the type of cars also needs to be similar.
