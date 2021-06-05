@@ -38,3 +38,14 @@ For Lots:
 - Lot1 p-value is 1. Keep H0. Do not have sufficient evidence to reject the null hypothesis.
 - Lot2 p-value is 0.6. Keep H0. Do not have sufficient evidence to reject the null hypothesis.
 - Lot3 p-value is 0.04. Reject H0. Do have sufficient evidence to reject the null hypothesis.
+
+## Deliverable 4: MechaCar vs Competition
+Metrics to test: city fuel efficiency.
+
+Test: two-sample t-test
+
+H0: The difference of city fuel efficiency between MechaCar and the competition is equal to zero.
+
+H1: The difference of city fuel efficiency between MechaCar and the competition is not equal to zero.
+
+When p-value is higher than 0.05, keep H0. There is no difference.
