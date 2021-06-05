@@ -32,3 +32,19 @@ lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mea
 
 # Combine two tables together for report
 combined_summary <- rbind(total_summary,lot_summary)
+
+# Deliverable 3
+# t test on all manufacturing lots
+t.test(sus_coil$PSI,mu=1500)
+
+# t tests on individual lots
+# Create a function takes lot name and mean as arguments.
+t_lots <-  function(lot_name,mean){
+  test_table = subset(sus_coil,Manufacturing_Lot==lot_name)
+  t.test(test_table$PSI,mu=mean)
+}
+
+# Use the function to do t tests.
+t_lots('Lot1',1500)
+t_lots('Lot2',1500)
+t_lots('Lot3',1500)
