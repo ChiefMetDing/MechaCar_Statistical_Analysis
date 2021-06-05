@@ -10,7 +10,31 @@ Answer: The slope is not considered to be zero. Because the p-value is way small
 Answer: Yes it does. The multiple R-squared is 0.7149 and the p-value is 5.35e-11. The high R-squared means the chance of prediction being close to actual is high. Also, the plotted prediction vs actual mpg shows clear trend of prediction being consistent.
 
 _Figure 1: Linear Regression to Predict MPG by the Other 5 Variables_
+
 ![deliverable 1](https://user-images.githubusercontent.com/78275082/120901604-045b5880-c60a-11eb-86f6-e7ebeb818eef.png)
 
 _Figure 2: Prediction vs Actual MPG_
+
 ![Deliverable_1_regression](https://user-images.githubusercontent.com/78275082/120901820-ff4ad900-c60a-11eb-9bf4-c81751cbb23e.png)
+
+## Deliverable 2: Summary Statistics on Suspension Coils
+The current manufacturing data does not meet the design specification for manufacturing lot3. Test results are shown in _Table 1_.
+
+The variance of lot3 is 170.3, which is over the requirement of not exceeding 100 PSI. However, combining all samples, the overall variance passed the PSI variance requirement.
+
+![deliverable 2](https://user-images.githubusercontent.com/78275082/120901876-53ee5400-c60b-11eb-972d-7239ba21c1b2.png)
+
+_Table 1: Suspension Coil Statistics Summary_
+
+## Deliverable 3: T-Test on Suspension Coils
+H0: There is no statistical difference between the observed sample mean and its presumed population mean.
+
+H1: There is a statistical difference between the observed sample mean and its presumed population mean.
+
+For total: 
+- P-value is 0.06 which is slightly greater than 0.05. We cannot reject H0.
+
+For Lots:
+- Lot1 p-value is 1. Keep H0. Do not have sufficient evidence to reject the null hypothesis.
+- Lot2 p-value is 0.6. Keep H0. Do not have sufficient evidence to reject the null hypothesis.
+- Lot3 p-value is 0.04. Reject H0. Do have sufficient evidence to reject the null hypothesis.
